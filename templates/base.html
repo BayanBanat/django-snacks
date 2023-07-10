@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}">HOME</a>
+            <a href="{% url 'about' %}">ABOUT</a>
+        </nav>
+    </header>
     {% block content %}
     {% endblock %}
 </body>
