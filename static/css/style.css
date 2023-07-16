@@ -28,24 +28,5 @@ a:hover {
   color: rgb(236, 225, 12);
 }
 
-img {
-  width: 500px;
-  height: 400px;
-  margin: 80px auto;
-  display: block;
-}
 
-.snack-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
 
-.snack-list h2 {
-  flex-basis: 25%;
-  margin: 0;
-}
